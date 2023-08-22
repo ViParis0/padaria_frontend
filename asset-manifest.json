@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frontend/static/css/main.9c2a8666.css",
+    "main.js": "/frontend/static/js/main.d1c1da51.js",
+    "static/js/787.f816be4e.chunk.js": "/frontend/static/js/787.f816be4e.chunk.js",
+    "static/media/diversidade-de-produtos-padaria.jpg": "/frontend/static/media/diversidade-de-produtos-padaria.0fabd3bc852f2ff82072.jpg",
+    "index.html": "/frontend/index.html",
+    "main.9c2a8666.css.map": "/frontend/static/css/main.9c2a8666.css.map",
+    "main.d1c1da51.js.map": "/frontend/static/js/main.d1c1da51.js.map",
+    "787.f816be4e.chunk.js.map": "/frontend/static/js/787.f816be4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c2a8666.css",
+    "static/js/main.d1c1da51.js"
+  ]
+}
