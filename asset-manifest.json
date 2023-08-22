@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/padaria_frontend/static/css/main.962dc416.css",
-    "main.js": "/padaria_frontend/static/js/main.afa070fc.js",
-    "static/js/787.f816be4e.chunk.js": "/padaria_frontend/static/js/787.f816be4e.chunk.js",
-    "static/media/diversidade-de-produtos-padaria.jpg": "/padaria_frontend/static/media/diversidade-de-produtos-padaria.0fabd3bc852f2ff82072.jpg",
-    "index.html": "/padaria_frontend/index.html",
-    "main.962dc416.css.map": "/padaria_frontend/static/css/main.962dc416.css.map",
-    "main.afa070fc.js.map": "/padaria_frontend/static/js/main.afa070fc.js.map",
-    "787.f816be4e.chunk.js.map": "/padaria_frontend/static/js/787.f816be4e.chunk.js.map"
+    "main.css": "/static/css/main.dde237c8.css",
+    "main.js": "/static/js/main.c9d801ee.js",
+    "static/js/787.f816be4e.chunk.js": "/static/js/787.f816be4e.chunk.js",
+    "static/media/diversidade-de-produtos-padaria.jpg": "/static/media/diversidade-de-produtos-padaria.0fabd3bc852f2ff82072.jpg",
+    "index.html": "/index.html",
+    "main.dde237c8.css.map": "/static/css/main.dde237c8.css.map",
+    "main.c9d801ee.js.map": "/static/js/main.c9d801ee.js.map",
+    "787.f816be4e.chunk.js.map": "/static/js/787.f816be4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962dc416.css",
-    "static/js/main.afa070fc.js"
+    "static/css/main.dde237c8.css",
+    "static/js/main.c9d801ee.js"
   ]
 }
