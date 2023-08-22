@@ -4,7 +4,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
 describe('renders main page items', () => {
-  test('renders learn react link', () => {
+  test('renders main page', () => {
     render(<App />, {wrapper: BrowserRouter});
     const linkElement = screen.getByRole('textbox')
     expect(linkElement).toBeInTheDocument();
