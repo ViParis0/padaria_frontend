@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../public/diversidade-de-produtos-padaria.jpg);
+  backdrop-filter: blur(4px);
+}
+
+/* body, html{
+  height: 100%;
+} */
+
+#filter button{
+  background-color: rgb(214, 161, 131);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  color: rgb(41, 12, 0);
+  padding: 12px;
+}
+
