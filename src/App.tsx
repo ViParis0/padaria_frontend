@@ -9,7 +9,7 @@ function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/cart" element={<Cart />} />
-      <Route path="/" element={<Home />} />
+      <Route path="/padaria_frontend" element={<Home />} />
     </Routes>
   );
 }

@@ -5,7 +5,7 @@ export default function Header(props: any) {
   return (
     <header className="flex w-full items-center font-bold text-lg p-1 bg-orange-800">
       <nav className="flex justify-between md:space-x-24 space-x-10 ml-2 items-center text-neutral-800">
-        <NavLink className="text-white" to="/">
+        <NavLink className="text-white" to="/padaria_frontend">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
