@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-import Product, { CartProduct } from "../interfaces/product";
+import { CartProduct } from "../interfaces/product";
 
 export default function Cart() {
   const [list, setList] = useState([] as CartProduct[]);
@@ -16,7 +16,7 @@ export default function Cart() {
     const stringCart = localStorage.getItem("cart") || "";
     const cartStorage: CartProduct[] = JSON.parse(stringCart);
     const productFind: CartProduct | undefined = cartStorage.find(
-      (item) => item.id == product.id
+      (item) => item.id === product.id
     );
     if (productFind) {
       const index = cartStorage.indexOf(productFind);
@@ -32,7 +32,7 @@ export default function Cart() {
       const stringCart = localStorage.getItem("cart") || "";
       const cartStorage: CartProduct[] = JSON.parse(stringCart);
       const productFind: CartProduct | undefined = cartStorage.find(
-        (item) => item.id == product.id
+        (item) => item.id === product.id
       );
       if (productFind) {
         const index = cartStorage.indexOf(productFind);

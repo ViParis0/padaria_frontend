@@ -37,7 +37,7 @@ export default function Home() {
       const stringCart = localStorage.getItem("cart") || "";
       const cartStorage: CartProduct[] = JSON.parse(stringCart);
       const productFind: CartProduct | undefined = cartStorage.find(
-        (item) => item.id == product.id
+        (item) => item.id === product.id
       );
       if (productFind) {
         const index = cartStorage.indexOf(productFind);
