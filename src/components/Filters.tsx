@@ -1,9 +1,11 @@
 import React from "react";
+import Product from "../interfaces/product";
 
 export default function Filters(props: any) {
   const handleClick = ({ target }: any) => {
     // chamada a API passando o value, despois setar o estado com o retorno da API
-    // props.calbackParent([])
+    const list = props.products.filter((product: Product) => product.category === target.value)
+    props.calbackParent(list)
     console.log(target.value);
   };
 

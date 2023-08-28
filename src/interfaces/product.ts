@@ -3,6 +3,7 @@ export default interface Product {
     image: string,
     name: string,
     price: string,
+    category: string,
 }
 
 export interface CartProduct extends Product {
