@@ -6,7 +6,6 @@ export default function Filters(props: any) {
     // chamada a API passando o value, despois setar o estado com o retorno da API
     const list = props.products.filter((product: Product) => product.category === target.value)
     props.calbackParent(list)
-    console.log(target.value);
   };
 
   return (
