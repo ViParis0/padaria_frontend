@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/padaria_frontend/static/css/main.962dc416.css",
-    "main.js": "/padaria_frontend/static/js/main.f9c0d076.js",
+    "main.css": "/padaria_frontend/static/css/main.e9e341ef.css",
+    "main.js": "/padaria_frontend/static/js/main.832e9cd3.js",
     "static/js/787.f816be4e.chunk.js": "/padaria_frontend/static/js/787.f816be4e.chunk.js",
     "static/media/diversidade-de-produtos-padaria.jpg": "/padaria_frontend/static/media/diversidade-de-produtos-padaria.0fabd3bc852f2ff82072.jpg",
     "index.html": "/padaria_frontend/index.html",
-    "main.962dc416.css.map": "/padaria_frontend/static/css/main.962dc416.css.map",
-    "main.f9c0d076.js.map": "/padaria_frontend/static/js/main.f9c0d076.js.map",
+    "main.e9e341ef.css.map": "/padaria_frontend/static/css/main.e9e341ef.css.map",
+    "main.832e9cd3.js.map": "/padaria_frontend/static/js/main.832e9cd3.js.map",
     "787.f816be4e.chunk.js.map": "/padaria_frontend/static/js/787.f816be4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962dc416.css",
-    "static/js/main.f9c0d076.js"
+    "static/css/main.e9e341ef.css",
+    "static/js/main.832e9cd3.js"
   ]
 }
