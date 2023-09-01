@@ -80,7 +80,7 @@ export default function Home() {
                   alt={item.name}
                 />
                 <p className="text-2xl font-bold">{item.name}</p>
-                <p>{item.price}</p>
+                <p>Preço: R$ {item.price}</p>
                 <button
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   type="button"
@@ -97,7 +97,7 @@ export default function Home() {
               >
                 <img src={item.image} alt={item.name} className="w-38 h-36" />
                 <p className="text-2xl font-bold">{item.name}</p>
-                <p>Preço: R${item.price}</p>
+                <p>Preço: R$ {item.price}</p>
                 <button
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none
                  focus:ring-blue-300 font-medium rounded-lg text-sm w-full

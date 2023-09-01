@@ -53,22 +53,44 @@ export default function Cart() {
   };
 
   return (
-    <div>
+    <div className="md:w-1/2 m-auto min-h-screen bg-slate-200">
       <Header />
       {list.map((item: CartProduct) => (
-        <div key={item.id}>
-          <img src={item.image} alt={item.name} width="400" height="250" />
-          <p>{item.name}</p>
-          <p>{item.price}</p>
-          <button type="button" onClick={() => minusBtnHandler(item)}>-</button>
-          <p>{item.count}</p>
-          <button type="button" onClick={() => plusBtnHandler(item)}>
-            +
-          </button>
+        <div
+          className="bg-white p-4 rounded-lg mx-auto my-2 w-1/2 flex flex-col"
+          key={item.id}
+        >
+          <img src={item.image} alt={item.name} className="w-38 h-38" />
+          <p className="text-2xl font-bold">{item.name}</p>
+          <p>Preço: R$ {item.price}</p>
+          <div className="flex justify-around">
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              type="button"
+              onClick={() => minusBtnHandler(item)}
+            >
+              -
+            </button>
+            <p>{item.count}</p>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              type="button"
+              onClick={() => plusBtnHandler(item)}
+            >
+              +
+            </button>
+          </div>
         </div>
       ))}
-      <p>Valor da compra:R${totalHandler()}</p>
-      <button type="button">Finalizar Compra</button>
+      <p className="text-center text-2xl font-bold">
+        Valor da compra: R$ {totalHandler()}
+      </p>
+      <button
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        type="button"
+      >
+        Finalizar Compra
+      </button>
     </div>
   );
 }
